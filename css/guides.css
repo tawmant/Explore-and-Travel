@@ -1,0 +1,51 @@
+.guides__container{
+    max-width: 1120px;
+    margin: auto;
+
+}
+
+.guides__row{
+    display: flex;
+    margin: 0 -20px;
+}
+
+.guides__column{
+    padding: 0 20px;
+}
+
+
+.guides__title{
+    margin-top: 90px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+    color: #000000;
+}
+
+.guides__discription{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */
+    color: #7D7987;
+    margin-bottom: 39px;
+    max-width: 460px;
+}
+
+.guides__btn{
+    font-family: sans-serif;
+    font-weight: 700;
+    background: #ff9900;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border: 1px solid #fb8f1d;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-decoration: none;
+}

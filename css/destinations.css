@@ -1,0 +1,63 @@
+.row{
+    display: flex;
+}
+
+.container{
+    max-width: 1120px;
+    margin: auto;
+}
+
+.destinations{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.destinations .row{
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.destinations__title{
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+
+
+    color: #000000;
+}
+
+.destinations__column{
+    position: relative;
+    margin-right: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.destinations__info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 120px;
+    background-color: #fff;
+    padding: 11px 22px 0 0;
+    border-radius: 0px 6px 0px 0px;
+}
+
+.destinations__info h5{
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+
+    color: #042521;
+}
+
+.destinations__info span{
+    color: #7D7987;
+}

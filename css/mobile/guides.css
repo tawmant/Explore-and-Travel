@@ -1,0 +1,28 @@
+/* @media screen and (max-width: 776px){
+    .guides{
+        text-align: center;
+    }
+    .guides__column img{
+        margin-top: 40px;
+    }
+    
+} */
+
+@media screen and (max-width: 776px){
+    .guides__container{
+        padding: 0 25px;
+        text-align: center;
+    }
+    .guides .guides__column{
+        margin: 0;
+    }
+    .guides__column img{
+        margin-top: 40px;
+    }
+    .guides__row{
+        flex-wrap: wrap-reverse;
+    }
+    .guides__title{
+        margin-top: 20px;
+    }
+}

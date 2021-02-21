@@ -1,0 +1,16 @@
+@media screen and (max-width: 776px){
+    .destinations{
+        text-align: center;
+    }
+    .destinations__info{
+        max-width: 100%;
+        width: 100%;
+    }
+    .destinations__column{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .destinations__column img{
+        width: 100%;
+    }
+}

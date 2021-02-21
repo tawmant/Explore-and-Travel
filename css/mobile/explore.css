@@ -1,0 +1,18 @@
+@media screen and (max-width: 776px){
+    .explore__container{
+        padding: 0 25px;
+        text-align: center;
+    }
+    .explore .explore__column{
+        margin: 0;
+    }
+    .explore__column img{
+        margin-top: 40px;
+    }
+    .explore__row{
+        flex-wrap: wrap;
+    }
+    .explore__title{
+        margin-top: 20px;
+    }
+}

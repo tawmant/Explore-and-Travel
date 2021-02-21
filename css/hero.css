@@ -1,0 +1,109 @@
+.hero{
+  min-height: 800px;
+}
+
+.hero__container {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.hero__left {
+  float: left;
+  width: 50%;
+}
+.hero__right {
+  padding-top: 80px;
+  margin-right: -85px;
+  float: right;
+  width: 50%;
+}
+
+.hero__right img {
+  max-width: 100%;
+}
+
+.hero__title {
+  margin: 114px 0 74px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1;
+  color: #202336;
+}
+
+.hero__suptitle {
+  position: relative;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #202336;
+}
+
+.hero__suptitle::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -21px;
+  width: 32px;
+  height: 2px;
+  background: #202336;
+  border-radius: 4px;
+}
+
+.hero__form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+.hero__form label {
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 35px;
+}
+
+.hero__form label::before {
+  content: "";
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+}
+
+.hero__form select {
+  padding: 21px 31px;
+  width: 220px;
+  color: #4a4c53;
+  -webkit-appearance: none;
+  border: 0.8px solid #afb0b9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  outline: none;
+}
+
+.hero__form option {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.hero__form button {
+  font-family: sans-serif;
+  font-weight: 700;
+  background: #ff9900;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  color: #fff;
+  border: 1px solid #fb8f1d;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+}

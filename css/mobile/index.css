@@ -1,0 +1,41 @@
+@import './header.css';
+@import './hero.css';
+@import './explore.css';
+@import './destinations.css';
+@import './guides.css';
+@import './testimonials.css';
+@import './stories.css';
+@import './footer.css';
+
+@media screen and (max-width: 776px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .col-8 {
+        width:  100%;
+    }
+    .col-7 {
+        width:  100%;
+    }
+    .col-6 {
+        width:  100%;
+    }
+    .col-5 {
+        width:  100%;
+    }
+    .col-4 {
+        width:  100%;
+    }
+    .col-3 {
+        width:  100%;
+    }
+    .col-2 {
+        width:  100%;
+    }
+    .col-1 {
+        width:  100%;
+    }
+}

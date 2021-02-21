@@ -1,0 +1,31 @@
+@media screen and (max-width: 776px){
+    .hero__container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 25px;
+        text-align: center;
+    }
+    .hero__left,
+    .hero__right{
+        width: 100%;
+    }
+    .hero__title{
+        margin: 50px 0 25px;
+    }
+    .hero__suptitle::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero__form{
+        justify-content: space-between;
+    }
+    .hero__form label{
+        margin-right: 0;
+    }
+    .hero__form select{
+        width: 40vmin;
+    }
+    .hero__form button{
+        margin: auto;
+    }
+}
